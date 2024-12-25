@@ -75,7 +75,7 @@ By the end of this bootcamp, I aim to:
 
 ## Contact
 Feel free to reach out if you have any questions or want to discuss ideas:
-- **Email**: [your-email@example.com](mailto:awoladh04@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/awoladhossain)
+- **Email**: [awoladh04@gmail.com](mailto:awoladh04@gmail.com)
+- **LinkedIn**: [www.linkedin.com/in/awoladhossain](www.linkedin.com/in/awoladhossain)
 
 Let's level up together 🚀!
