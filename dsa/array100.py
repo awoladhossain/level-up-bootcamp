@@ -1,4 +1,4 @@
-#! How do you find the missing number in a given integer array of 1 to 100 ?
+# ! How do you find the missing number in a given integer array of 1 to 100 ?
 
 # def missingNumber(arr):
 #   n = len(arr)+1
@@ -40,4 +40,7 @@
 
 # arr = [1,2,2,3,4,5,5,6,6,7]
 # print(duplicateNumber(arr))
+
+#! Question: Given an array of numbers, write a function to find the second-largest number in the array.
+
 

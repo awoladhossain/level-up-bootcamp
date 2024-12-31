@@ -6,6 +6,7 @@ import {
   reset,
 } from "./components/counter/counterSlice";
 import { useState } from "react";
+import PostView from "./components/post/PostView";
 const App = () => {
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
@@ -25,21 +26,26 @@ const App = () => {
   }
   return (
     <div>
-      <button onClick={handleIncrement}>+</button>
-      <h3>Count: {count > 0 ? `${count}` : `${0}`}</h3>
-      <button onClick={handleDecrement}>-</button>
-      <br />
-      <br />
-      {/* <button onClick={handleByValue}>inc 5</button> */}
-      <button onClick={handleReset}>reset</button>
-      <br />
-      <br />
-      <input
-        type="number"
-        value={amount}
-        onChange={(e) => setAmount(e.target.value)}
-      />
-      <button onClick={handleByValue}>increment by amount</button>
+      <div>
+        <button onClick={handleIncrement}>+</button>
+        <h3>Count: {count > 0 ? `${count}` : `${0}`}</h3>
+        <button onClick={handleDecrement}>-</button>
+        <br />
+        <br />
+        {/* <button onClick={handleByValue}>inc 5</button> */}
+        <button onClick={handleReset}>reset</button>
+        <br />
+        <br />
+        <input
+          type="number"
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+        />
+        <button onClick={handleByValue}>increment by amount</button>
+      </div>
+      <div>
+        <PostView />
+      </div>
     </div>
   );
 };
