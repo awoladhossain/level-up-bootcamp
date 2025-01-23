@@ -26,19 +26,19 @@
 
 #! solution:2
 
-# def duplicateNumber(arr):
-#   seen = set()
-#   duplicates=set()
+def duplicateNumber(arr):
+  seen = set()
+  duplicates=set()
 
-#   for num in arr:
-#     if num in seen:
-#       duplicates.add(num)
-#     else:
-#       seen.add(num)
-#   return list(duplicates)
+  for num in arr:
+    if num in seen:
+      duplicates.add(num)
+    else:
+      seen.add(num)
+  return list(duplicates)
 
 
-# arr = [1,2,2,3,4,5,5,6,6,7]
+arr = [1,2,2,3,4,5,5,6,6,7]
 # print(duplicateNumber(arr))
 
 #! Question: Given an array of numbers, write a function to find the second-largest number in the array.
