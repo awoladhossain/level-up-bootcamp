@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+.product {
+  background: teal;
+  padding: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.product:hover{
+    transform: translate(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
